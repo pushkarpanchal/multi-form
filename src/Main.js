@@ -61,8 +61,6 @@ function Main() {
           );
         })}
       </Stepper>
-      {activeStep === steps.length - 1 &&
-        console.log("allValues--->", allValues)}
       {activeStep === steps.length - 1 ? (
         <React.Fragment>
           <Typography variant="h4" sx={{ color: "#60a662" }}>
