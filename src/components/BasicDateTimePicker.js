@@ -13,7 +13,7 @@ export default function BasicDateTimePicker(props) {
   const [date, setDate] = useState("");
   useEffect(() => {
     value && setDate(value);
-  }, []);
+  }, [value]);
   // console.log("error", error);
   return (
     <FormControl sx={{ width: "100%", mb: "1rem" }} error={error}>
