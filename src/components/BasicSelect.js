@@ -7,8 +7,7 @@ import Select from "@mui/material/Select";
 import { FormHelperText } from "@mui/material";
 
 export default function BasicSelect(props) {
-  const { options, label, id, value, error, onChange, helperText, name } =
-    props;
+  const { options, label, id, error, onChange, helperText, name } = props;
   const [age, setAge] = useState("");
 
   const handleChange = (event) => {

@@ -7,8 +7,7 @@ import FormLabel from "@mui/material/FormLabel";
 import { FormHelperText } from "@mui/material";
 
 export default function RowRadioButtonsGroup(props) {
-  const { options, label, id, value, error, onChange, helperText, name } =
-    props;
+  const { options, label, id, error, onChange, helperText, name } = props;
   return (
     <FormControl error={error}>
       <FormLabel id={id}>{label}</FormLabel>

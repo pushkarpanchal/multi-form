@@ -8,7 +8,7 @@ import { FormHelperText } from "@mui/material";
 import moment from "moment";
 
 export default function BasicDateTimePicker(props) {
-  const { label, id, value, error, onChange, helperText, type, name } = props;
+  const { label, id, value, error, onChange, helperText, name } = props;
 
   const [date, setDate] = useState("");
   useEffect(() => {
